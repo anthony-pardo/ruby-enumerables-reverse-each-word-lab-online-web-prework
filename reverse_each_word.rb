@@ -10,5 +10,8 @@ end
 def reverse_each_word_with_collect(str)
   arr = str.split(" ")
   new_arr = []
-  arr.collect 
+  arr.collect do |word|
+    new_arr << word.reverse
+  end
+  new_arr.join(" ")
 end
