@@ -8,6 +8,7 @@ def reverse_each_word(str)
 end
 
 def reverse_each_word_with_collect(str)
+  arr = str.split(" ")
   new_arr = []
-  str.collect 
+  arr.collect 
 end
