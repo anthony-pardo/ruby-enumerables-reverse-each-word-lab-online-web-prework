@@ -7,4 +7,7 @@ def reverse_each_word(str)
   new_arr.join(" ")
 end
 
-def
+def reverse_each_word_with_collect(str)
+  new_arr = []
+  str.collect 
+end
